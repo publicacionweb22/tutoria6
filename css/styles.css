@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.caja-1 {
+    width: 400px;
+    height: 200px;
+    background-color: gold;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    margin-right: 30px;
+}
+
+.caja-2 {
+    width: 300px;
+    height: 200px;
+    background-color: green;
+    /* margin: 40px; Todos los lados tendrán ese margin*/
+    /*margin: 40px 20px;  Arriba y abajo | derecha e izquierda*/
+    /* margin: 20px 40px 30px; Arriba | derecha e izquierda | abajo */
+    margin: 20px 30px 40px 50px; /* Arriba | derecha | abajo | izquierda */
+}
+
+.caja-3 {
+    width: 300px;
+    height: 200px;
+    background-color: crimson;
+    margin: 20px auto 40px; /* Si los valores para derecha e izquierda son auto el elemento se centra */ 
+}
+
+.aviso {
+    font-size: 32px;
+    color: crimson;
+    border: 1px solid crimson;
+    padding: 20px 40px;
+    margin: 0 20px;
+}
